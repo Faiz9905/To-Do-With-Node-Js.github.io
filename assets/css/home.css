@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    background-color: gray;
+}
+#container{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.to-do-app{
+    width: 50%;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid yellow;
+   
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: white;
+   
+
+}
+.to-do-app-header{
+   
+
+}
+.to-do-app-header h2{
+    color: indianred;
+}
+.details-to-do{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    /* border: 1px solid red; */
+
+    display: flex;
+    
+}
+.form-inner{
+    width: 95%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    /* border: 1px solid blue; */
+    flex-direction: column;
+
+}
+.discription-div{
+  width: 100%;
+  height: 50px;
+  /* border-top: 1px solid gray;
+  border-bottom: 1px solid gray; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+.label-category{
+
+}
+.label-category span{
+    font-weight: 550;
+    color: gray;
+    font-size: 14px;
+}
+.input-category{
+
+  width: 100%;
+  border: none;
+  /* border: 1px solid red; */
+
+}
+.input-category input{
+       
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+   /* border-bottom-style: groove; */
+    /* background-color: #eee; */
+    width: 98%;
+}
+.input-category input:focus{
+  outline: none;
+}
+.cat-due-date{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  /* border: 1px solid black; */
+
+}
+.select{
+    width: 50%;
+   
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid tomato; */
+}
+.select-label{
+   width: 100%; 
+   /* border: 1px solid black; */
+}
+.select-label span{
+    font-weight: 550;
+    color: gray;
+    font-size: 14px;
+}
+.select-input{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+}
+.select-input select{
+   width: 100%;
+   height: 100%;
+   border-top-style: hidden;
+   border-right-style: hidden;
+   border-left-style: hidden;
+
+}
+.select-input select:focus{
+    outline: none;
+}
+ 
+.due-date{
+    width: 50%;
+    /* border: 1px solid tomato; */
+}
+.due-date-input{
+    width: 97%;
+    height: 100%;
+}
+.buttons-div{
+  width: 100%;
+  justify-content: center;  
+  display: flex;
+}
+.add{
+    padding: 15px;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.to-do-result{
+    width: 100%;
+    /* height: 300px; */
+    
+    display: flex;
+    /* border: 1px solid red; */
+}
+.to-do-ul{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: cyan; */
+}
+.to-do-li{
+    width: 95%;
+    position: relative;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+    height: 100px;
+    list-style-type: none;
+    display: flex;
+    
+    /* border: 1px solid blue; */
+
+}
+.first{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.i-custom{
+    font-size: 15px;
+    cursor: pointer;
+}
+.second{
+    width: 80%;
+    height: 100%;
+    background-color: whitesmoke;
+    
+    /* background-color: yellowgreen; */
+}
+.dis{
+    font-weight: 500;
+    color: gray;
+    font-family: sans-serif;
+    position: relative;
+    left: 5px;
+    
+}
+.i-cal{
+    font-size: 18px;
+    position: relative;
+    margin-left: 5px;
+    
+    color: rgb(126, 116, 116);
+}
+.date{
+    position: relative;
+    left: 5px;
+   
+    color: rgb(126, 116, 116);
+}
+.third{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.third-inner{
+    height: 30%;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    align-items: center;
+    background-color: rgb(228, 77, 77);
+    margin-top: 2px;
+}
+.third-inner-upper{
+    height: 30%;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid tomato;
+    align-items: center;
+    /* background-color: rgb(228, 77, 77); */
+    margin-top: 2px;
+}
+.third-inner-upper:hover{
+    background-color: tomato;
+
+}
+.personal{
+    font-weight: 500;
+    font-family: sans-serif;
+    color: white;
+    outline: none;
+}
+.personal-upper{
+    font-weight: 500;
+    font-family: sans-serif;
+    color: black;
+    outline: none;
+}
+.dlt{
+    text-decoration: none;
+}
